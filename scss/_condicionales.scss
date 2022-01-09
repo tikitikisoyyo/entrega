@@ -1,0 +1,15 @@
+h1{
+    @if $color == red {
+        color: blue;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    @else{
+        color: green;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+

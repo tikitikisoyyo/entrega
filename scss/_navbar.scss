@@ -1,0 +1,119 @@
+/* Barra de navegación */
+
+.header{
+    display: flex;
+}
+
+.logotipo{
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    padding: 10px 50px;
+    margin: 10px auto;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    justify-content: flex-end;    
+}
+
+.navbar .navbar-list .navbar-item{
+    background-color: rgba(20, 24, 24, 0.555);
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.651);
+    font-family: 'Italiana', serif;
+    margin: 0 5px;
+    text-transform: uppercase;
+    width: max-content;
+    padding: 3px 7px;
+    border-radius: 5px;    
+    max-width: 1000px;
+}
+
+.navbar .navbar-list:hover .navbar-item{
+    display: flex;
+    flex-direction: column;
+    color: rgb(218, 151, 26);
+    cursor: pointer;
+}
+
+
+
+/* media query navbar*/
+
+@media only screen and (max-width:600px){
+    /* index */
+    .header{
+        flex-direction: column;
+    }
+
+    .navbar{
+        flex-direction: column;
+    }
+
+    .navbar ul{
+        flex-direction: column;
+        height: 250px;
+        justify-content: space-between;        
+    }
+
+    .title-h1 h1{
+        font-size: 50px;
+    }
+
+    .card-body .card-title{
+        font-size: 30px;
+    }
+
+    .card-body .card-text{
+    font-size: 15px;
+    }
+    .contactanos{
+        font-size: 20px;
+    }
+
+    .copyright p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:900px){
+    
+    .header{
+        flex-direction: row;
+    }
+
+    .navbar{
+        flex-direction: row;
+    }
+
+    .navbar ul{
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .header{
+        flex-direction: row;
+    }
+
+    .navbar{
+        flex-direction: row;
+    }
+
+    .navbar ul{
+        flex-direction: row;
+    }
+}
