@@ -113,6 +113,14 @@ body {
   font-size: 100px;
   color: rgba(218, 151, 26, 0.877); }
 
+.title-h1 .animate__animated {
+  font-size: 120px; }
+
+.card-title {
+  font-family: 'Italianno', cursive;
+  font-size: 90px;
+  color: rgba(218, 151, 26, 0.877); }
+
 /* media query main*/
 @media only screen and (max-width: 600px) {
   .main {
@@ -226,6 +234,11 @@ body {
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none; }
+
+.container .fw-light {
+  font-family: 'Italianno', cursive;
+  font-size: 100px;
+  color: rgba(218, 151, 26, 0.877); }
 
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
@@ -365,11 +378,11 @@ body {
   grid-area: vid-nuestras; }
 
 .nuestras-pastas .objetivo {
+  font-family: 'Italianno', cursive;
+  font-size: 100px;
+  color: rgba(218, 151, 26, 0.877);
   grid-row: texto;
-  color: #da971a;
-  font-size: 50px;
-  text-align: center;
-  width: 100%; }
+  text-align: center; }
 
 .nuestras-pastas .nuestro-objetivo {
   color: black;
@@ -392,7 +405,9 @@ body {
     grid-area: vid-nuestras; }
   .nuestras-pastas .objetivo {
     grid-row: texto;
-    color: #da971a;
+    font-family: 'Italianno', cursive;
+    font-size: 100px;
+    color: rgba(218, 151, 26, 0.877);
     font-size: 30px;
     text-align: center;
     width: 100%; }
@@ -418,8 +433,9 @@ body {
     grid-area: vid-nuestras; }
   .nuestras-pastas .objetivo {
     grid-row: texto;
-    color: #da971a;
-    font-size: 50px;
+    font-family: 'Italianno', cursive;
+    font-size: 100px;
+    color: rgba(218, 151, 26, 0.877);
     text-align: center;
     width: 100%; }
   .nuestras-pastas .nuestro-objetivo {
@@ -444,8 +460,9 @@ body {
     grid-area: vid-nuestras; }
   .nuestras-pastas .objetivo {
     grid-row: texto;
-    color: #da971a;
-    font-size: 50px;
+    font-family: 'Italianno', cursive;
+    font-size: 100px;
+    color: rgba(218, 151, 26, 0.877);
     text-align: center;
     width: 100%; }
   .nuestras-pastas .nuestro-objetivo {
@@ -497,6 +514,11 @@ body {
   margin: 20px; }
 
 /* media query contacto */
+.recibi-promos .titulo-recibi {
+  font-family: 'Italianno', cursive;
+  font-size: 100px;
+  color: rgba(218, 151, 26, 0.877); }
+
 @media only screen and (max-width: 600px) {
   .header {
     flex-direction: column; }
@@ -506,9 +528,8 @@ body {
     flex-direction: column;
     height: 250px;
     justify-content: space-between; }
-  .titulo-recibi {
-    font-size: 25px;
-    color: royalblue; }
+  .recibi-promos .titulo-recibi {
+    font-size: 60px; }
   .info-recibi {
     font-size: 20px; }
   .contactanos {
